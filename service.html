@@ -1,34 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=4, initial-scale=1.0" />
     <title>Tp seo</title>
     <link rel="stylesheet" href="style/normalize.css" />
     <link rel="stylesheet" href="style/style.css" />
-    <meta name="description" content="Page d'accueil" />
+    <meta
+      name="description"
+      content="Les meilleurs services pour vous accompagner dans votre projet professionnel"
+    />
+    <meta
+      name="keywords"
+      content="école, numérique, informatique, développement, web, mobile, cyber sécurité, formations, bts, rpi, post bac, outils, office365, google workspace, adobe creative cloud"
+    />
   </head>
   <body>
     <header>
       <nav>
-        <a href="#"><img src="img/logo-min.webp" alt="logo" /></a>
+        <a href="index.html"><img src="img/logo-isitech.png" alt="logo" /></a>
         <ul>
           <li><a href="index.html">Accueil</a></li>
           <li><a href="service.html">Services</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
+      <div class="slider">
+        <div class="container-slide">
+          <img src="img/logo-ISITECH.jpg" alt="logo isitech" />
+          <img src="img/2024.jpg" alt="image bonne année" />
+        </div>
+      </div>
     </header>
     <main class="container">
       <h1>Accéder à vos outils</h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis rerum
-        reiciendis eaque maxime tenetur dolores architecto, ipsum soluta
-        aspernatur porro ducimus beatae cumque molestiae quo nulla facere
-        consectetur impedit vero?
+        L’école ISITECH vous fournit de nombreux outils pour vous accompagner
+        tout au long de votre formation. Les 3 plateformes ci-dessous vous sont
+        accessibles à l’aide vos identifiants Office365, communiqués lors de
+        votre rentrée.
       </p>
       <section id="outils">
-        <article>
+        <div>
           <h2>Microsoft Office 365</h2>
           <ul>
             <li>Word</li>
@@ -36,8 +49,8 @@
             <li>Powerpoint</li>
             <li>Outlook</li>
           </ul>
-        </article>
-        <article>
+        </div>
+        <div>
           <h2>Google Workspace</h2>
           <ul>
             <li>Docs</li>
@@ -45,8 +58,8 @@
             <li>Slides</li>
             <li>Gmail</li>
           </ul>
-        </article>
-        <article>
+        </div>
+        <div>
           <h2>Adobe Creative Cloud</h2>
           <ul>
             <li>Photoshop</li>
@@ -54,10 +67,10 @@
             <li>Indesign</li>
             <li>After Effects</li>
           </ul>
-        </article>
+        </div>
       </section>
     </main>
-    <footer class="bottom">
+    <footer>
       <p class="copyright">&copy; 2020 Tp seo</p>
       <div>
         <h3>Liens utiles</h3>
@@ -76,11 +89,12 @@
       </div>
       <div>
         <h3>Newsletter</h3>
-        <form action="">
+        <form>
           <input type="email" placeholder="Votre email" />
           <button>S'inscrire</button>
         </form>
       </div>
     </footer>
+    <script src="js/script.js"></script>
   </body>
 </html>

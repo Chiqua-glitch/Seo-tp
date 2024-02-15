@@ -1,26 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tp seo</title>
     <link rel="stylesheet" href="style/normalize.css" />
     <link rel="stylesheet" href="style/style.css" />
-    <meta name="description" content="Page d'accueil" />
+    <meta
+      name="description"
+      content="Contactez-nous pour plus d'informations sur nos formations"
+    />
+    <meta
+      name="keywords"
+      content="école, numérique, informatique, développement, web, mobile, cyber sécurité, bts, rpi, post bac, formations"
+    />
   </head>
   <body>
     <header>
       <nav>
-        <a href="#"><img src="img/logo.webp" /></a>
+        <a href="index.html"><img src="img/logo-isitech.png" alt="logo" /></a>
         <ul>
           <li><a href="index.html">Accueil</a></li>
-          <li><a href="service.html">Service</a></li>
+          <li><a href="service.html">Services</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <form id="contact">
+      <form id="contact" method="post">
+        <h1>Contact</h1>
+        <p>
+          Contactez-nous pour plus d'informations sur nos formations. Nous vous
+          répondrons dans les plus brefs délais.
+        </p>
         <div>
           <label for="name">Nom</label>
           <input type="text" id="name" name="name" />
@@ -34,6 +46,7 @@
           <textarea id="message" name="message"></textarea>
         </div>
         <button type="submit">Envoyer</button>
+      </form>
     </main>
     <footer class="bottom">
       <p class="copyright">&copy; 2020 Tp seo</p>
@@ -54,7 +67,7 @@
       </div>
       <div>
         <h3>Newsletter</h3>
-        <form action="">
+        <form>
           <input type="email" placeholder="Votre email" />
           <button>S'inscrire</button>
         </form>
